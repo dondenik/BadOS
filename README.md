@@ -55,3 +55,8 @@ It is recommended to install these with Homebrew.
  
  ### snake
  Work in progress.
+ 
+ ## Technical Overview and Notes
+The OS runs in x86 real mode making use of BIOS functions to control output and input. As QEMU wouldn't let me use an actual disk despite my best efforts the filesystem is instead mounted in RAM making it volatile although the facilities are there to have it use a disk but are not enabled.
+The command line itself will echo back anything you type into it that isn't a valid command.
+The code is not properly formatted and the variable names are dubious at best with many different misspellings of 'loop' used as labels for random loops/
