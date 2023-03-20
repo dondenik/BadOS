@@ -38,6 +38,7 @@ It is recommended to install these with Homebrew.
  - power (^)
  - modulo (%)
  There is also the special operator random (RAND) which replaces itself with a random number. \
+
  Usage:
  > `calc <operand> <operand> <operator>`
  
